@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  font-family: 'Poppins';
+}
+
+.Grand {
+  font-size: 7vh;
+}
+
+.Social {
+  height: 50px;
+
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.Projeto img{
+  height: 30vh;
+  object-fit: cover;
+  object-position: -60px;
+}
+
+.Hero {
+    background-image: url(./img/eu.JPG);
+    Height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.Hero2 img {
+  width: 100%;
+}
+
+.HeroP {
+  Height: 80vh;
+}
+
+.Projeto .fadedbox {
+  background-color: #212322;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #f4f9ff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.Projeto:hover .fadedbox {
+  opacity: 0.8;
+}
+
+.Projeto {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  pointer-events: all;
+}
+
+.titulo {
+  font-size: 4vh;
+}
+
+input[type="text"], input[type="email"], textarea[type="text"] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc; /* You can adjust the color and thickness of the outline */
+}
